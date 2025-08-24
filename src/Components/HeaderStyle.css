@@ -195,6 +195,29 @@ nav > ul > li:hover {
   .fa-bars {
     display: block;
   }
+  .profile_with_icon{
+    /* background-color: yellow; */
+    width: 52%;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    
+  }
+  .fa-bars{
+    /* background-color: red; */
+    /* width: 200px; */
+    margin-right: 40px;
+   
+  }
+  .icon_with_count{
+    /* background-color: pink; */
+  }
+  .Header_Container{
+    /* background-color: orange; */
+  }
+  .shop_name_wrapper{
+    /* background-color: green; */
+    width: 60%;
+  }
 }
 @media screen and (max-width: 414px) {
 }

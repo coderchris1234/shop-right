@@ -2,14 +2,16 @@ const Navbar =()=>{
     return(
         <div style={{
             width: "30%",
-            height: "30vh",
+            height: "40vh",
             backgroundColor: "lightGrey",
             position: "absolute",
             top: "70px",
             left: "0px",
             backgroundColor: "rgba(211, 211, 211, 0.4)",
             backdropFilter: "blur(6px)",
-            marginTop: "10px"
+            marginTop: "10px",
+            zIndex: "9999",
+            borderRadius: "10px"
         }}>
          <ul style={{
             width: "100%",
@@ -21,6 +23,7 @@ const Navbar =()=>{
             flexDirection: "column",
             justifyContent: "space-around",
             cursor: "pointer",
+            textDecoration: "underline",
          }}>
             <li>Home</li>
             <li>About</li>

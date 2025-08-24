@@ -1,0 +1,181 @@
+/* It's a common convention to use lowercase kebab-case for CSS class names. */
+.app {
+   width: 100%;
+   height: 30vh;
+   /* background-color: red; */
+   display: flex;
+   /* flex-direction: column; */
+   align-items: center;
+   justify-content: center;
+}
+
+/* It's better to use classes than general tag selectors for styling specific text. */
+.app-intro-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Roboto, 'sans-serif';
+}
+
+.product-list-wrapper {
+    background-color: pink;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+}
+
+.product-container{
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    background-color: blue;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-image-container{
+    width: 100%;
+    height: max-content;
+    background-color: gray;
+    /* border: 1px solid red; */
+}
+.product-image-container > p{
+    /* color: red; */
+    width: 20%;
+    height: 20%;
+}
+
+.button_wrapper{
+    /* background-color: green; */
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    font-weight: bold;
+    font-family: Roboto, 'sans-serif';
+    font-size: 20px;
+}
+
+.button_wrapper > button{
+    background-color: grey;
+    height: 40%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 60px 70px 40px 140px;
+    cursor: pointer;
+    text-align: center; 
+    transform: scale(0.8);
+    transition: all 245ms ease-in-out;
+}
+
+.button_wrapper > button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1);
+}
+
+.button_wrapper button.active {
+  background-color: black; /* or any color you want */
+  color: white;
+  font-weight: bold;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color :white;
+    font-family: Roboto, 'sans-serif';
+    
+}
+
+.wrapper1{
+    width: 300px;
+    height: max-content;
+    /* border: 1px solid red; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+     font-family: Roboto, 'sans-serif';
+     font-style: italic;
+}
+.wrapper1 > p{
+    /* color: red; */
+    text-wrap: wrap;
+    line-height: 20px;
+    color: rgb(146, 144, 144);
+}
+
+.wrapper1 > img{
+    width: 110px;
+    height: 110px;
+}
+.wrapper1 > img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper1 > button{
+    border-radius: 60px 70px 40px 140px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 245ms ease-in-out;
+}
+.wrapper1 > button:hover{
+    transform: scale(1);
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 476px) {
+    .button_wrapper{
+        /* background-color: green; */
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        margin-top: 50px;
+        
+    }
+    .app{
+        /* background-color: red; */
+    }
+    .button_wrapper > button{
+        /* background-color: yellow; */
+        height: 30px;
+    }
+
+    .app-intro-text{
+        /* color: yellow; */
+    }
+    
+
+}
+@media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 320px) {
+}
+
