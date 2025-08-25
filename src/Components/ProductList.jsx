@@ -77,21 +77,6 @@ function App() {
         </span>
       </div>
     </div>  
-
-
-
-      {/* <div className='product-list-wrapper'>
-
-     
-      {
-        
-        filteredProducts.map((products) => (
-          <div key={products.id} className='Product_wrapper'>
-            <Product product={products} />
-          </div>
-        ))
-      }
-      </div> */}
 <div className='list'>
       {
         

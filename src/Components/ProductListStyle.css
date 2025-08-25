@@ -115,6 +115,7 @@
     cursor: pointer;
      font-family: Roboto, 'sans-serif';
      font-style: italic;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .wrapper1 > p{
     /* color: red; */
@@ -126,6 +127,10 @@
 .wrapper1 > img{
     width: 110px;
     height: 110px;
+    
+}
+.price{
+    color: rgb(53, 177, 218);
 }
 .wrapper1 > img:hover{
     transform: rotateY(360deg);

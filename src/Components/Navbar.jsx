@@ -24,6 +24,7 @@ const Navbar =()=>{
             justifyContent: "space-around",
             cursor: "pointer",
             textDecoration: "underline",
+            marginRight: "100px"
          }}>
             <li>Home</li>
             <li>About</li>
