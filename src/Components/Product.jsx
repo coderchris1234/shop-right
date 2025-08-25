@@ -15,6 +15,7 @@ const Product =({product})=>{
               <img src={product.image} alt="" title={product.title} />
               <span>{product.brand}</span>
                 <p>{product.title}</p>
+                <p>{product.model}</p>
                 <span className='price'>NGN{product.price}</span>
                 <button>Buy Now</button>
             </div>
